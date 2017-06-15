@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=VCC Pin=U1-1
+Removed Pin From Net: NetName=NetD3_2 Pin=U1-5
+Removed Pin From Net: NetName=NetD1_2 Pin=U1-6
+Removed Pin From Net: NetName=NetD2_2 Pin=U1-8
+Removed Member From Class: ClassName=Driver Morpheu v4.0 PONTE H Member=C?
+Added Pin To Net: NetName=VCC Pin=U1-1
+Added Pin To Net: NetName=NetD3_2 Pin=U1-5
+Added Pin To Net: NetName=NetD1_2 Pin=U1-6
+Added Pin To Net: NetName=NetD2_2 Pin=U1-8

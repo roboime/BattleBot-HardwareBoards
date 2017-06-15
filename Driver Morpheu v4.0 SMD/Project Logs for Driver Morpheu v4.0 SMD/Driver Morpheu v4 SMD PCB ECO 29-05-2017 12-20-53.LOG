@@ -1,0 +1,10 @@
+Removed Member From Class: ClassName=Driver Morpheu v4 SMD Member=U?
+Added Component: Designator=C1(CAP-0402)
+Added Component: Designator=U1(32A_N)
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Net: Name=GND
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC1_2 Pin=U1-18
+Added Net: Name=NetC1_2
+Added Member To Class: ClassName=Driver Morpheu v4 SMD Member=Component C1 GRM155R71C104KA88D
+Added Member To Class: ClassName=Driver Morpheu v4 SMD Member=Component U1 ATmega328P-AU

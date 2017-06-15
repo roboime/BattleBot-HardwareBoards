@@ -1,0 +1,30 @@
+Added Component: Designator=D1(DO-35)
+Added Component: Designator=D2(DO-35)
+Added Component: Designator=D3(DO-35)
+Added Component: Designator=R1(SMD-0603-RES)
+Added Component: Designator=R2(SMD-0603-RES)
+Added Pin To Net: NetName=GND Pin=D3-1
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=R1-2
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetD1_2 Pin=R1-1
+Added Pin To Net: NetName=NetD1_2 Pin=U1-6
+Added Net: Name=NetD1_2
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Pin To Net: NetName=NetD2_1 Pin=R2-2
+Added Net: Name=NetD2_1
+Added Pin To Net: NetName=NetD2_2 Pin=D2-2
+Added Pin To Net: NetName=NetD2_2 Pin=R2-1
+Added Pin To Net: NetName=NetD2_2 Pin=U1-8
+Added Net: Name=NetD2_2
+Added Pin To Net: NetName=NetD3_2 Pin=D3-2
+Added Pin To Net: NetName=NetD3_2 Pin=U1-5
+Added Pin To Net: NetName=NetD3_2 Pin=U1-7
+Added Net: Name=NetD3_2
+Added Class: Name=Driver Morpheu v4.0 CENTRAL
+Added Class: Name=Driver Morpheu v4.0 PONTE H
+Change Room Name: Old Name=Driver Morpheu v4 SMD New Name=Driver Morpheu v4.0 PONTE H
+Change Room Scope: Old Scope=InComponentClass('Driver Morpheu v4 SMD') New Scope=InComponentClass('Driver Morpheu v4.0 PONTE H')
+Added Room: Name=Driver Morpheu v4.0 CENTRAL
