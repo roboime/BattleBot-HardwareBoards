@@ -9,3 +9,14 @@
 [0628/151517:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
 [0628/151517:ERROR:cache_util.cc(134)] Unable to move cache folder C:\ProgramData\Altium\Altium Designer {FFD22ECF-6158-45EA-A78D-BA7F4003DE34}\BrowserCache to C:\ProgramData\Altium\Altium Designer {FFD22ECF-6158-45EA-A78D-BA7F4003DE34}\old_BrowserCache_000
 [0628/151517:ERROR:cache_creator.cc(129)] Unable to create cache
+[0628/153004:ERROR:backend_impl.cc(2020)] Corrupt Index file
+[0628/153004:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0628/153004:ERROR:cache_util.cc(134)] Unable to move cache folder C:\ProgramData\Altium\Altium Designer {FFD22ECF-6158-45EA-A78D-BA7F4003DE34}\BrowserCache to C:\ProgramData\Altium\Altium Designer {FFD22ECF-6158-45EA-A78D-BA7F4003DE34}\old_BrowserCache_000
+[0628/153004:ERROR:cache_creator.cc(129)] Unable to create cache
+[0628/155555:ERROR:browser_gpu_channel_host_factory.cc(119)] Failed to launch GPU process.
+[0628/164328:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[0628/164329:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[0628/203245:ERROR:backend_impl.cc(2020)] Corrupt Index file
+[0628/203245:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0628/203245:ERROR:cache_util.cc(134)] Unable to move cache folder C:\ProgramData\Altium\Altium Designer {FFD22ECF-6158-45EA-A78D-BA7F4003DE34}\BrowserCache to C:\ProgramData\Altium\Altium Designer {FFD22ECF-6158-45EA-A78D-BA7F4003DE34}\old_BrowserCache_000
+[0628/203245:ERROR:cache_creator.cc(129)] Unable to create cache
