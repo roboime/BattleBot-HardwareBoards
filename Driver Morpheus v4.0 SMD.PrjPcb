@@ -39,6 +39,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=MissingComponents.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=EXBCGFBK
+
+[Document2]
 DocumentPath=Driver Morpheus v4.0 PONTE H.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -55,7 +72,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HCYSRNAX
 
-[Document2]
+[Document3]
 DocumentPath=Driver Morpheus v4.0 CENTRAL.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -72,7 +89,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QIJDUMKL
 
-[Document3]
+[Document4]
 DocumentPath=Driver Morpheus v4.0.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -89,7 +106,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YCGUPQOG
 
-[Document4]
+[Document5]
 DocumentPath=Driver Morpheus v4.0 SENSOR CORRENTE.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
