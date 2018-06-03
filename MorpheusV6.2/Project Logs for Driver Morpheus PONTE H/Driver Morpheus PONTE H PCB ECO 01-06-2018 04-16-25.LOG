@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=GND Pin=R17-1
+Removed Pin From Net: NetName=A1 Pin=R17-2
+Added Pin To Net: NetName=GND Pin=R17-1
+Added Pin To Net: NetName=NetDS3_2 Pin=R17-1
+Added Pin To Net: NetName=A1 Pin=R17-2
+Added Pin To Net: NetName=GND Pin=R17-2
+Change Net Name : Old Net Name=NetU3_1 New Net Name=BAT 5S
+Added Pin To Net: NetName=NetQ1_2 Pin=Q1-2
+Added Pin To Net: NetName=NetQ1_2 Pin=Q2-2
+Added Pin To Net: NetName=NetQ1_2 Pin=U3-2
+Added Net: Name=NetQ1_2

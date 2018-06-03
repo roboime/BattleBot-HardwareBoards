@@ -1,0 +1,32 @@
+Added Component: Designator=R19(RESC6432X89X76ML25T25)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Brand"; Value = "Vishay/Dale"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code - in"; Value = "2512"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code - mm"; Value = "6432"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Height"; Value = "0.635mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Length"; Value = "6.4mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Width"; Value = "3.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.vishay.com/docs/30100/wsl.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "07/2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Factory Pack Quantity"; Value = "2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.vishay.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Range"; Value = "-65Cto+170C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "2512(6432metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 6.35 x 3.18 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "2512"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "6W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product"; Value = "MetalElementCurrentSensingResistors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Category"; Value = "CurrentSenseResistors-SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "0.009Ohms"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Details"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "WSL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "75PPM/C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination Style"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "PowerMetalStripResistors,LowValue(downto0.0005Ohms),SurfaceMount"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetQ1_2 Pin=R19-1
+Added Pin To Net: NetName=BAT 5S Pin=R19-2
+Added Member To Class: ClassName=Driver Morpheus PONTE H Member=Component R19 71-WSLF25121L000FEA

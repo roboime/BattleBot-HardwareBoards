@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=GND Pin=R17-1
+Removed Pin From Net: NetName=A1 Pin=R17-2
+Removed Member From Class: ClassName=Driver Morpheus SENSOR CORRENTE Member=R17
+Added Pin To Net: NetName=NetDS3_2 Pin=R17-1
+Added Pin To Net: NetName=GND Pin=R17-2

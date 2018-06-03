@@ -1,0 +1,36 @@
+Added Component: Designator=R10(RES-0402)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R11(RES-0402)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R12(RES-0402)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R13(RES-0402)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R14(RES-0402)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R18(RES-0402)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=A0 Pin=R10-1
+Added Pin To Net: NetName=+3.3v Pin=R10-2
+Added Pin To Net: NetName=GND Pin=R11-1
+Added Pin To Net: NetName=A0 Pin=R11-2
+Added Pin To Net: NetName=NetR12_1 Pin=R12-1
+Added Pin To Net: NetName=+3.3v Pin=R12-2
+Added Pin To Net: NetName=NetR13_1 Pin=R13-1
+Added Pin To Net: NetName=+3.3v Pin=R13-2
+Added Pin To Net: NetName=A1 Pin=R14-1
+Added Pin To Net: NetName=+3.3v Pin=R14-2
+Added Pin To Net: NetName=GND Pin=R18-1
+Added Pin To Net: NetName=A1 Pin=R18-2
+Added Member To Class: ClassName=Driver Morpheus SENSOR CORRENTE Member=Component R10 RC0402JR-071KL
+Added Member To Class: ClassName=Driver Morpheus SENSOR CORRENTE Member=Component R11 RC0402JR-071KL
+Added Member To Class: ClassName=Driver Morpheus SENSOR CORRENTE Member=Component R12 RC0402JR-071KL
+Added Member To Class: ClassName=Driver Morpheus SENSOR CORRENTE Member=Component R13 RC0402JR-071KL
+Added Member To Class: ClassName=Driver Morpheus SENSOR CORRENTE Member=Component R14 RC0402JR-071KL
+Added Member To Class: ClassName=Driver Morpheus SENSOR CORRENTE Member=Component R18 RC0402JR-071KL
