@@ -18,7 +18,7 @@ Possui nessa versão leds que indicam a entrada de PWM nos IN_1 e IN_2, bem como
 ![Pinout](https://github.com/roboime/BattleBot-HardwareBoards/blob/master/Morpheus/Morpheus%20v7.0/tabelaPins.JPG)
 
 ### 3.FUNCIONAMENTO
-Para fazer o circuito funcionar, certifique-se de que a bateria está ligada, bem como a trilha de *Vcc* está energizada com os valores de tenão apropriados, ditos anteriormente.
+Para fazer o circuito funcionar, certifique-se de que a bateria está ligada, bem como a trilha de *Vcc* está energizada com os valores de tensão apropriados, ditos anteriormente.
 Caso utilize o feedback de corrente proporcionado pelo INA169, garanta que a trilha de +3.3v também esteja energizada.
 
 - Giro à esquerda: aplique PWM em IN_1 e 0 em IN_2
