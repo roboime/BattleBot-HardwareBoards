@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=CarrierBoard.SchDoc
+Record=SheetSymbol|SourceDocument=CarrierBoard.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=CircuitoControle.SchDoc|SymbolType=Normal|RawFileName=CircuitoControle.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=CarrierBoard.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=Perifericos.SchDoc|SymbolType=Normal|RawFileName=Perifericos.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=CarrierBoard.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=Regulador5v.SchDoc|SymbolType=Normal|RawFileName=Regulador5v.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
