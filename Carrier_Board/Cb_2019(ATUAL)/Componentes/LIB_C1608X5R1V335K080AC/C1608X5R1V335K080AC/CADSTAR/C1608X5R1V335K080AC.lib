@@ -1,0 +1,18 @@
+.C1608X5R1V335K080AC :1 ;Multilayer Ceramic Capacitors MLCC - SMD/SMT
+CAPC1608X80N
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN C1608X5R1V335K080AC
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (C1608X5R1V335K080AC)
+~!Mouser Part Number (810-C1608X5R1V335KAC)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=810-C1608X5R1V335KAC)
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Link Datasheet (https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf)
+~!Height (0.8mm)
+~!3D_Model (C1608X5R1V335K080AC)
+C1608X5R1V335K080AC
+1.1!U 2.1!U 
