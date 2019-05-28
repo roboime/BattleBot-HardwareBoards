@@ -11,11 +11,11 @@ Possui nessa versão leds que indicam a entrada de PWM nos IN_1 e IN_2, bem como
 ### 2.CONEXÕES
  O layout foi feito de forma a permitir mais possibilidades de acoplamento da placa à CB (Carrier Board), de forma que conta com 3 pinos de GND de potência, e 1 Bat5S (polo positivo da bateria). Há também dois conectores de flat cable, bastando escolher qual soldar no momento da feitura da placa. Foram postos dois no projeto visualizando também maior número de possibilidades.
 
-![Diagrama de Pinos](https://github.com/roboime/BattleBot-HardwareBoards/blob/master/Morpheus/Morpheus%20v7.0/pinout.png)
+![Diagrama de Pinos](https://github.com/roboime/BattleBot-HardwareBoards/blob/master/Morpheus/Morpheus%20v7.0(Atual)/pinout.png)
 
 ### 3.PINOUT
 
-![Pinout](https://github.com/roboime/BattleBot-HardwareBoards/blob/master/Morpheus/Morpheus%20v7.0/tabelaPins.JPG)
+![Pinout](https://github.com/roboime/BattleBot-HardwareBoards/blob/master/Morpheus/Morpheus%20v7.0(Atual)/tabelaPins.JPG)
 
 ### 3.FUNCIONAMENTO
 Para fazer o circuito funcionar, certifique-se de que a bateria está ligada, bem como a trilha de *Vcc* está energizada com os valores de tensão apropriados, ditos anteriormente.
