@@ -1,0 +1,56 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\eriic\OneDrive\Documentos\Erick\Batalha_git\BattleBot-HardwareBoards\Carrier_Board\Cb_2019(ATUAL)\CarrierBoard.PcbDoc
+Date     : 16/07/2019
+Time     : 06:48:05
+
+Processing Rule : Clearance Constraint (Gap=7mil) (All),(All)
+   Violation between Clearance Constraint: (Collision < 7mil) Between Area Fill (1129.039mil,3090.253mil) (1193.999mil,3153.245mil) on Keep-Out Layer And Pad J5-MP2(1087.7mil,3121.749mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 7mil) Between Area Fill (1154.528mil,212.244mil) (1219.488mil,275.236mil) on Keep-Out Layer And Pad J7-MP1(1113.189mil,243.74mil) on Top Layer 
+   Violation between Clearance Constraint: (0mil < 7mil) Between Area Fill (1505.023mil,3090.253mil) (1569.984mil,3153.245mil) on Keep-Out Layer And Pad J5-MP1(1611.322mil,3121.749mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 7mil) Between Area Fill (1530.512mil,212.244mil) (1595.473mil,275.236mil) on Keep-Out Layer And Pad J7-MP2(1636.811mil,243.74mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 7mil) Between Area Fill (1794.526mil,2799.764mil) (1859.487mil,2862.756mil) on Keep-Out Layer And Pad J6-MP2(1753.189mil,2831.26mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 7mil) Between Area Fill (1794.528mil,217.244mil) (1859.488mil,280.236mil) on Keep-Out Layer And Pad J8-MP1(1753.189mil,248.74mil) on Top Layer 
+   Violation between Clearance Constraint: (0.001mil < 7mil) Between Area Fill (2170.511mil,2799.764mil) (2235.471mil,2862.756mil) on Keep-Out Layer And Pad J6-MP1(2276.811mil,2831.26mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 7mil) Between Area Fill (2170.512mil,217.244mil) (2235.473mil,280.236mil) on Keep-Out Layer And Pad J8-MP2(2276.811mil,248.74mil) on Top Layer 
+Rule Violations :8
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=7mil) (Max=25.291mil) (Preferred=15.74mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=140mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=7mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=4.5mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=3.3mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 8
+Waived Violations : 0
+Time Elapsed        : 00:00:00

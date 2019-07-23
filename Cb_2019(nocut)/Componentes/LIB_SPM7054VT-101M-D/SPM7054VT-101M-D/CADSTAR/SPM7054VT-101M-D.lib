@@ -1,0 +1,18 @@
+.SPM7054VT-101M-D :1 ;Fixed Inductors 100uH 348mOhm 2.4A AEC-Q200
+INDPM7570X540N
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN SPM7054VT-101M-D
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (SPM7054VT-101M-D)
+~!Mouser Part Number (810-SPM7054VT-101M-D)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=810-SPM7054VT-101M-D)
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Link Datasheet (https://product.tdk.com/info/en/catalog/datasheets/inductor_automotive_power_spm7054vt-d_en.pdf)
+~!Height (5.4mm)
+~!3D_Model (SPM7054VT-101M-D)
+SPM7054VT-101M-D
+1.1!U 2.1!U 

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'C1608X5R1V335K080AC'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TDK", "C1608X5R1V335K080AC" (!) = "", "CAPC1608X80N", "Capacitor Chip Non-polarised", "810-C1608X5R1V335KAC", "https://www.mouser.com/Search/Refine.aspx?Keyword=810-C1608X5R1V335KAC", "", "", "Multilayer Ceramic Capacitors MLCC - SMD/SMT", "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf", "0.8 mm"
+END_PART
+
+END.

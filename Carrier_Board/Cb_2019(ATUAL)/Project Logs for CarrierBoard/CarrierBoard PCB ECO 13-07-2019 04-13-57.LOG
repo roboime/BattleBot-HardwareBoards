@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=BAT1S Pin=R11-1
+Removed Pin From Net: NetName=BAT2S Pin=R12-1
+Removed Pin From Net: NetName=BAT4S Pin=R14-1
+Removed Pin From Net: NetName=BAT5S Pin=R15-1
+Removed Pin From Net: NetName=BAT1S Pin=R16-2
+Removed Pin From Net: NetName=BAT2S Pin=R17-2
+Removed Pin From Net: NetName=BAT4S Pin=R19-2
+Removed Pin From Net: NetName=BAT5S Pin=R20-2
+Added Pin To Net: NetName=BAT5S Pin=R11-1
+Added Pin To Net: NetName=BAT4S Pin=R12-1
+Added Pin To Net: NetName=BAT2S Pin=R14-1
+Added Pin To Net: NetName=BAT1S Pin=R15-1
+Added Pin To Net: NetName=BAT5S Pin=R16-2
+Added Pin To Net: NetName=BAT4S Pin=R17-2
+Added Pin To Net: NetName=BAT2S Pin=R19-2
+Added Pin To Net: NetName=BAT1S Pin=R20-2

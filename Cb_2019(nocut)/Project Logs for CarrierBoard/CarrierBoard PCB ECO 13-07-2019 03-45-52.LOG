@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=T_ESQ Pin=R9-1
+Removed Pin From Net: NetName=BP3V3 Pin=R9-2
+Removed Pin From Net: NetName=BP3V3 Pin=R10-1
+Removed Pin From Net: NetName=T_DIR Pin=R10-2
+Removed Pin From Net: NetName=T_ESQ Pin=Termistores Motores-1
+Removed Pin From Net: NetName=T_DIR Pin=Termistores Motores-2
+Removed Pin From Net: NetName=0 Pin=Termistores Motores-6
+Removed Pin From Net: NetName=0 Pin=Termistores Motores-7
+Added Pin To Net: NetName=T_ESQ Pin=ESC-4
+Added Pin To Net: NetName=T_DIR Pin=ESC-5
+Added Pin To Net: NetName=BP3V3 Pin=R9-1
+Added Pin To Net: NetName=T_ESQ Pin=R9-2
+Added Pin To Net: NetName=T_DIR Pin=R10-1
+Added Pin To Net: NetName=BP3V3 Pin=R10-2
+Added Member To Class: ClassName=CarrierBoard Member=Component P1 VBAT5S

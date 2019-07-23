@@ -1,0 +1,352 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD19\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">16/07/2019</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">06:48:05</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:00</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\eriic\OneDrive\Documentos\Erick\Batalha_git\BattleBot-HardwareBoards\Carrier_Board\Cb_2019(ATUAL)\CarrierBoard.PcbDoc" class="file"><acronym title="C:\Users\eriic\OneDrive\Documentos\Erick\Batalha_git\BattleBot-HardwareBoards\Carrier_Board\Cb_2019(ATUAL)\CarrierBoard.PcbDoc">C:\Users\eriic\OneDrive\Documentos\Erick\Batalha_git\BattleBot-HardwareBoards\Carrier_Board\Cb_2019(ATUAL)\CarrierBoard.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">8</td></tr>
+</table>
+</td>
+</table><a name="IDUZAOUMAB50SQO0NB2OJTDEXZIB5YEIOK3SKAZPBGBSUUR5FCMXP"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDWOWGPTXE1UWHGQFNQVH4BIMGCCPI5VYVYIFL3SKSKO0GJ3OF4DDM">Clearance Constraint (Gap=7mil) (All),(All)</a></td>
+<td class="column2">8</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSTY3U1XQ2WM5IHWHLGTDGBY0SPLQ0RWJDTZ5PLFUN5JJZA0YZY2M">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDP1ZBWKMLOHPPHPZNETKLEDDJJKU3NI0NQXEKKPEXL02F22PI2RQM">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDACVRYOK2H1UANHOFIH2FQXKAGHUAV5WB0HZWYZBLQYKNGQJ3134K">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDRSVK4C0FOKN0JHZLW2P11KPNO5N5O0ECQOEMMPIJGQ4YQ20MDSL">Width Constraint (Min=7mil) (Max=25.291mil) (Preferred=15.74mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDRSR3TSKLZHGVGDRNTATJI2DASIKIDZ4MVFTUQCED31VKORRYKGQC">Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDUVOMLTUV3ARDINLONHFFAXFCPKRM504N35XZ54JSVOLCJ5F2LLHP">Hole Size Constraint (Min=1mil) (Max=140mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAX1FKMY4VMRNHORGWLPNGJDUPMTDREFXVU3QULDWBIVNU5QVRUZK">Hole To Hole Clearance (Gap=7mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZTUNZDCTI51XFRCJBJXNU0IXTK2F2UMU2LYAZZMGI1SBBYMCTCZO">Minimum Solder Mask Sliver (Gap=4.5mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDEOLQXJ4MGVASK34JQV0N2JEAVG2TXGJBYEIBMMNPQEAJIQUOKINJ">Silk To Solder Mask (Clearance=3.3mil) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDN5TJL3SOWOIFO4UIRX4GMYCGLL4JPTUXTSBXYZMVOA53AYIPJY3P">Silk to Silk (Clearance=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDCTO4F4WZOC5GC5AXWLPKJBQTFIYRAIHJIIDM1MHBG4AE5FVXTFWG">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDT0DOWGPE4INBOBKYYGIBGXOIGEJQ54KNT44TL5GOU5EVURYXR1SI">Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">8</td>
+</tr>
+</table><br><a name="IDWOWGPTXE1UWHGQFNQVH4BIMGCCPI5VYVYIFL3SKSKO0GJ3OF4DDM"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=7mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\eriic\OneDrive\Documentos\Erick\Batalha_git\BattleBot-HardwareBoards\Carrier_Board\Cb_2019(ATUAL)\CarrierBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3406.205mil|Location2.X=3411.872mil|Location1.Y=4123.916mil|Location2.Y=4129.582mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\eriic\OneDrive\Documentos\Erick\Batalha_git\BattleBot-HardwareBoards\Carrier_Board\Cb_2019(ATUAL)\CarrierBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3406.205mil|Location2.X=3411.872mil|Location1.Y=4123.916mil|Location2.Y=4129.582mil|Absolute=True">Clearance Constraint: (Collision &lt; 7mil) Between Area Fill (1129.039mil,3090.253mil) (1193.999mil,3153.245mil) on Keep-Out Layer And Pad J5-MP2(1087.7mil,3121.749mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\eriic\OneDrive\Documentos\Erick\Batalha_git\BattleBot-HardwareBoards\Carrier_Board\Cb_2019(ATUAL)\CarrierBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3431.694mil|Location2.X=3437.361mil|Location1.Y=1277.403mil|Location2.Y=1283.07mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\eriic\OneDrive\Documentos\Erick\Batalha_git\BattleBot-HardwareBoards\Carrier_Board\Cb_2019(ATUAL)\CarrierBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3431.694mil|Location2.X=3437.361mil|Location1.Y=1277.403mil|Location2.Y=1283.07mil|Absolute=True">Clearance Constraint: (Collision &lt; 7mil) Between Area Fill (1154.528mil,212.244mil) (1219.488mil,275.236mil) on Keep-Out Layer And Pad J7-MP1(1113.189mil,243.74mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\eriic\OneDrive\Documentos\Erick\Batalha_git\BattleBot-HardwareBoards\Carrier_Board\Cb_2019(ATUAL)\CarrierBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3845.858mil|Location2.X=3854.108mil|Location1.Y=4091.128mil|Location2.Y=4099.378mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\eriic\OneDrive\Documentos\Erick\Batalha_git\BattleBot-HardwareBoards\Carrier_Board\Cb_2019(ATUAL)\CarrierBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3845.858mil|Location2.X=3854.108mil|Location1.Y=4091.128mil|Location2.Y=4099.378mil|Absolute=True">Clearance Constraint: (0mil &lt; 7mil) Between Area Fill (1505.023mil,3090.253mil) (1569.984mil,3153.245mil) on Keep-Out Layer And Pad J5-MP1(1611.322mil,3121.749mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\eriic\OneDrive\Documentos\Erick\Batalha_git\BattleBot-HardwareBoards\Carrier_Board\Cb_2019(ATUAL)\CarrierBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3872.639mil|Location2.X=3878.306mil|Location1.Y=1277.403mil|Location2.Y=1283.07mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\eriic\OneDrive\Documentos\Erick\Batalha_git\BattleBot-HardwareBoards\Carrier_Board\Cb_2019(ATUAL)\CarrierBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3872.639mil|Location2.X=3878.306mil|Location1.Y=1277.403mil|Location2.Y=1283.07mil|Absolute=True">Clearance Constraint: (Collision &lt; 7mil) Between Area Fill (1530.512mil,212.244mil) (1595.473mil,275.236mil) on Keep-Out Layer And Pad J7-MP2(1636.811mil,243.74mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\eriic\OneDrive\Documentos\Erick\Batalha_git\BattleBot-HardwareBoards\Carrier_Board\Cb_2019(ATUAL)\CarrierBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4071.693mil|Location2.X=4077.36mil|Location1.Y=3833.426mil|Location2.Y=3839.093mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\eriic\OneDrive\Documentos\Erick\Batalha_git\BattleBot-HardwareBoards\Carrier_Board\Cb_2019(ATUAL)\CarrierBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4071.693mil|Location2.X=4077.36mil|Location1.Y=3833.426mil|Location2.Y=3839.093mil|Absolute=True">Clearance Constraint: (Collision &lt; 7mil) Between Area Fill (1794.526mil,2799.764mil) (1859.487mil,2862.756mil) on Keep-Out Layer And Pad J6-MP2(1753.189mil,2831.26mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\eriic\OneDrive\Documentos\Erick\Batalha_git\BattleBot-HardwareBoards\Carrier_Board\Cb_2019(ATUAL)\CarrierBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4071.694mil|Location2.X=4077.361mil|Location1.Y=1282.403mil|Location2.Y=1288.07mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\eriic\OneDrive\Documentos\Erick\Batalha_git\BattleBot-HardwareBoards\Carrier_Board\Cb_2019(ATUAL)\CarrierBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4071.694mil|Location2.X=4077.361mil|Location1.Y=1282.403mil|Location2.Y=1288.07mil|Absolute=True">Clearance Constraint: (Collision &lt; 7mil) Between Area Fill (1794.528mil,217.244mil) (1859.488mil,280.236mil) on Keep-Out Layer And Pad J8-MP1(1753.189mil,248.74mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\eriic\OneDrive\Documentos\Erick\Batalha_git\BattleBot-HardwareBoards\Carrier_Board\Cb_2019(ATUAL)\CarrierBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4511.347mil|Location2.X=4519.597mil|Location1.Y=3800.639mil|Location2.Y=3808.889mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\eriic\OneDrive\Documentos\Erick\Batalha_git\BattleBot-HardwareBoards\Carrier_Board\Cb_2019(ATUAL)\CarrierBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4511.347mil|Location2.X=4519.597mil|Location1.Y=3800.639mil|Location2.Y=3808.889mil|Absolute=True">Clearance Constraint: (0.001mil &lt; 7mil) Between Area Fill (2170.511mil,2799.764mil) (2235.471mil,2862.756mil) on Keep-Out Layer And Pad J6-MP1(2276.811mil,2831.26mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\eriic\OneDrive\Documentos\Erick\Batalha_git\BattleBot-HardwareBoards\Carrier_Board\Cb_2019(ATUAL)\CarrierBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4512.639mil|Location2.X=4518.306mil|Location1.Y=1282.403mil|Location2.Y=1288.07mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\eriic\OneDrive\Documentos\Erick\Batalha_git\BattleBot-HardwareBoards\Carrier_Board\Cb_2019(ATUAL)\CarrierBoard.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4512.639mil|Location2.X=4518.306mil|Location1.Y=1282.403mil|Location2.Y=1288.07mil|Absolute=True">Clearance Constraint: (Collision &lt; 7mil) Between Area Fill (2170.512mil,217.244mil) (2235.473mil,280.236mil) on Keep-Out Layer And Pad J8-MP2(2276.811mil,248.74mil) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

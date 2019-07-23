@@ -1,0 +1,32 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [CarrierBoard.PrjPcb]
+   Generated File[CarrierBoard.GTO]
+   Generated File[CarrierBoard.GTP]
+   Generated File[CarrierBoard.GTS]
+   Generated File[CarrierBoard.GTL]
+   Generated File[CarrierBoard.GBL]
+   Generated File[CarrierBoard.GBS]
+   Generated File[CarrierBoard.GBP]
+   Generated File[CarrierBoard.GBO]
+   Generated File[CarrierBoard.GM1]
+   Generated File[CarrierBoard.GM13]
+   Generated File[CarrierBoard.GM15]
+   Generated File[CarrierBoard.GM22]
+   Generated File[CarrierBoard.GM29]
+   Generated File[CarrierBoard.GKO]
+   Generated File[CarrierBoard.GPT]
+   Generated File[CarrierBoard.GPB]
+   Generated File[CarrierBoard.1]
+   Generated File[CarrierBoard.GML]
+   Generated File[CarrierBoard.GD1]
+   Generated File[CarrierBoard.GG1]
+   Generated File[CarrierBoard.RUL]
+   Generated File[CarrierBoard.EXTREP]
+   Generated File[CarrierBoard.REP]
+
+
+Files Generated   : 23
+Documents Printed : 0
+
+Finished Output Generation At 08:42:55 On 23/07/2019

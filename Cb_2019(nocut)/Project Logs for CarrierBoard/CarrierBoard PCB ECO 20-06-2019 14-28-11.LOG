@@ -1,0 +1,104 @@
+Added Component: Designator=L1(*INDP125125X600N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Allied_Number"; Value = "70277063"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Allied Price/Stock"; Value = "https://www.alliedelec.com/bourns-srr1260-220m/70277063/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "1260"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.bourns.com/docs/Product-Datasheets/SRR1260.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.bourns.com/docs/Product-Datasheets/SRR1260.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "http://uk.rs-online.com/webdocs/0def/0900766b80defded.pdf?src-supplier=RSComponents"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://uk.rs-online.com/webdocs/0def/0900766b80defded.pdf?src-supplier=RSComponents"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "http://www.farnell.com/datasheets/1430852.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.farnell.com/datasheets/1430852.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "http://www.farnell.com/datasheets/1914016.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "http://www.farnell.com/datasheets/1914016.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5Description"; Value = "http://www.bourns.com/pdfs/SRR1260.pdf?src-supplier=Avnet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5URL"; Value = "http://www.bourns.com/pdfs/SRR1260.pdf?src-supplier=Avnet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink6Description"; Value = "http://www.farnell.com/datasheets/2366825.pdf?src-supplier=Newark"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink6URL"; Value = "http://www.farnell.com/datasheets/2366825.pdf?src-supplier=Newark"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink7Description"; Value = "https://www.alliedelec.com/m/d/845565468e1e76a1db638ca94afd232b.pdf?src-supplier=Allied+Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink7URL"; Value = "https://www.alliedelec.com/m/d/845565468e1e76a1db638ca94afd232b.pdf?src-supplier=Allied+Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Composition"; Value = "Wirewound"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Core Material"; Value = "Ferrite"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "1.7A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://componentsearchengine.com/Datasheets/2/SRR1260-220M.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Current"; Value = "1.7A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance (DCR)"; Value = "180mR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "12.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency"; Value = "6.07MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height - Seated (Max)"; Value = "0.256inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Inductance"; Value = "100uH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Inductance Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "12.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SRR1260-220M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "SRR1260-101M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Steel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max DC Current"; Value = "1.7A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Military Standard"; Value = "Not"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "652-SRR1260-220M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=652-SRR1260-220M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "600"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=0.97, 10=0.833, 50=0.694, 100=0.652, 1000=0.447, 10000=0.446 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Q Factor"; Value = "26"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "180MR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RMS Current (Irms)"; Value = "1.7A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Part Number"; Value = "7272246P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Price/Stock"; Value = "http://uk.rs-online.com/web/p/products/7272246P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Saturation Current"; Value = "1.7A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Self Resonant Frequency"; Value = "6.07MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shielding"; Value = "Shielded"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "6993"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "652-SRR1260-101M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Test Frequency"; Value = "100kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "12.5mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD1_1 Pin=L1-1
+Added Pin To Net: NetName=5V Pin=L1-2
+Added Pin To Net: NetName=INT Pin=U3-4
+Added Pin To Net: NetName=BAT1S Pin=U3-5
+Added Pin To Net: NetName=BAT2S Pin=U3-6
+Added Pin To Net: NetName=BAT3S Pin=U3-7
+Added Pin To Net: NetName=BAT4S Pin=U3-8
+Added Pin To Net: NetName=BAT5S Pin=U3-9
+Added Pin To Net: NetName=T_ESQ Pin=U3-10
+Added Pin To Net: NetName=T_DIR Pin=U3-11
+Added Pin To Net: NetName=T_ARMA Pin=U3-12
+Added Pin To Net: NetName=INAE Pin=U3-13
+Added Pin To Net: NetName=INAD Pin=U3-14
+Added Pin To Net: NetName=UART_RX Pin=U3-15
+Added Pin To Net: NetName=UART_TX Pin=U3-16
+Added Pin To Net: NetName=0 Pin=U3-19
+Added Pin To Net: NetName=0 Pin=U3-20
+Added Pin To Net: NetName=BP3V3 Pin=U3-21
+Added Pin To Net: NetName=0 Pin=U3-22
+Added Pin To Net: NetName=5V Pin=U3-23
+Added Pin To Net: NetName=SMUX1 Pin=U3-24
+Added Pin To Net: NetName=SMUX0 Pin=U3-25
+Added Pin To Net: NetName=MUX_RX Pin=U3-26
+Added Pin To Net: NetName=ARMA Pin=U3-27
+Added Pin To Net: NetName=ENCODER D- Pin=U3-28
+Added Pin To Net: NetName=ENCODER D+ Pin=U3-29
+Added Pin To Net: NetName=ENCODER E- Pin=U3-30
+Added Pin To Net: NetName=ENCODER E+ Pin=U3-31
+Added Pin To Net: NetName=SMUX2 Pin=U3-32
+Added Pin To Net: NetName=MOTOR_D- Pin=U3-33
+Added Pin To Net: NetName=MOTOR_D+ Pin=U3-34
+Added Pin To Net: NetName=MOTOR_E- Pin=U3-35
+Added Pin To Net: NetName=MOTOR_E+ Pin=U3-36
+Added Pin To Net: NetName=SPI_MOSI Pin=U3-37
+Added Pin To Net: NetName=SPI_MISO Pin=U3-38
+Added Pin To Net: NetName=SPI_SCK Pin=U3-39
+Added Pin To Net: NetName=SPI_CS Pin=U3-40
+Added Member To Class: ClassName=Designator Member=Component L1 SRR1260-101M
+Change Room Name: Old Name=Designator_3 New Name=Designator
+Change Room Name: Old Name=Designator_2 New Name=Designator
