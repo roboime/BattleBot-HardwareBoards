@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=R3 Old Footprint=RES-0402 New Footprint=SMD-0603-RES
+Change Component Footprint: Designator=R4 Old Footprint=RES-0402 New Footprint=SMD-0603-RES
+Change Component Footprint: Designator=R7 Old Footprint=RES-0402 New Footprint=SMD-0603-RES
+Change Component Footprint: Designator=R8 Old Footprint=RES-0402 New Footprint=SMD-0603-RES
+Added Room: Name=INA169
