@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=IN_1 Pin=J2-1
+Removed Pin From Net: NetName=+3.3v Pin=J2-2
+Removed Pin From Net: NetName=Vcc Pin=J2-3
+Removed Pin From Net: NetName=IN_2 Pin=J2-4
+Added Pin To Net: NetName=Vcc Pin=J2-1
+Added Pin To Net: NetName=IN_1 Pin=J2-2
+Added Pin To Net: NetName=+3.3v Pin=J2-3
+Added Pin To Net: NetName=NetC11_1 Pin=J2-4
+Added Room: Name=INA169

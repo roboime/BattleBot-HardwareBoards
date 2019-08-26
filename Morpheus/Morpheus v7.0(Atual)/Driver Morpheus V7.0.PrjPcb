@@ -208,58 +208,62 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.DRR
+DocumentPath=Project Outputs for Driver Morpheus V7.0\Design Rule Check - Driver Morpheus v7.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.EXTREP
+DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.GBL
+DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.GBO
+DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.GBS
+DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.GM1
+DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.GM16
+DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.GTL
+DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.GM16
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.GTO
+DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.GTS
+DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.LDP
+DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.REP
+DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.RUL
+DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.REP
 DItemRevisionGUID=
 
 [GeneratedDocument14]
+DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument15]
 DocumentPath=Project Outputs for Driver Morpheus V7.0\Driver Morpheus v7.0.TXT
 DItemRevisionGUID=
 
@@ -436,7 +440,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Brother DCP-L2540DW series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]

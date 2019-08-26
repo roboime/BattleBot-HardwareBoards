@@ -1,0 +1,8 @@
+Removed Member From Class: ClassName=Driver Morpheus V7.0 Member=P?
+Change Component Designator: OldDesignator=P? NewDesignator=J2
+Added Pin To Net: NetName=IN_1 Pin=J2-1
+Added Pin To Net: NetName=+3.3v Pin=J2-2
+Added Pin To Net: NetName=Vcc Pin=J2-3
+Added Pin To Net: NetName=IN_2 Pin=J2-4
+Added Pin To Net: NetName=GND Pin=J2-5
+Added Member To Class: ClassName=Driver Morpheus V7.0 Member=Component J2 TSW-105-05-G-S
